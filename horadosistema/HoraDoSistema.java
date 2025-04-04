@@ -5,6 +5,7 @@ public class HoraDoSistema {
 
     public static void main (String[]args){
 
-        Date data = new date();
+        Date data = new Date();
+        System.out.print(data);
     }
 }
