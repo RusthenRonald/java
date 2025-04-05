@@ -10,3 +10,6 @@ public class HoraDoSistema {
         System.out.println(data.toString());
     }
 }
+//olamundo linha única
+
+/*texto infinito*/
