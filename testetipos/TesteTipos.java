@@ -7,7 +7,7 @@ public class TesteTipos {
         String valor = Integer.toString(idade);
         System.out.println(idade);
         */
-         String valor = "30";
-         int num = Integer.parseInt(valor);
+         String valor = "30.5";
+         float num = Float.parseFloat(valor)
     }
 }
