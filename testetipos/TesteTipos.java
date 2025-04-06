@@ -8,6 +8,7 @@ public class TesteTipos {
         System.out.println(idade);
         */
          String valor = "30.5";
-         float num = Float.parseFloat(valor)
+         float num = Float.parseFloat(valor);
+        System.out.printf("O número convertido é %.3f",num);
     }
 }
