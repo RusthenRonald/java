@@ -10,7 +10,12 @@ public class HeartRates {
     private int diaNasc;
     private int mesNasc;
     private int anoNasc;
-    
+
+    //construtor
+    public HeartRates (String nome,String sobrenome,int diaNasc , int mesNasc , int anoNasc){
+
+    }
+
 
     public static void main(String[] args) {
 
