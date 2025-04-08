@@ -22,6 +22,10 @@ public class HeartRates {
     }
     // Ele é chamado automaticamente quando você cria um novo objeto.
 
+    public int calcularIdade(){
+        int anoAtual = LocalDate.now().getYear();
+        return anoAtual - this.anoNasc;
+    }
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
