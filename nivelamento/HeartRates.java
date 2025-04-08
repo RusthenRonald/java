@@ -12,8 +12,10 @@ public class HeartRates {
         String sobrenome = input.nextLine();
         System.out.println("Qual sua data de nascimento");
         int nasc = input.nextInt();
-        idade=
-        System.out.printf("O nome completo da pessoa é %s %se sua data de nascimento é %d",nome,sobrenome,nasc);
+        int anoAtual =LocalDate.now().getYear();
+        int idade = anoAtual- nasc;
+        System.out.printf("O nome completo da pessoa é %s %s, sua data de nascimento é %d\n",nome,sobrenome,nasc);
+        System.out.printf("Sua idade é de %d",idade);
     }
 
 }
